@@ -4,6 +4,15 @@
 ThreeJS 🤩 intermediate level crash course using Custom Shaders, taught by Christopher Lis.
 
 
+## Demos
+
+Main content of the course. Here the geometric figure was created using Shaders to use the image, the colors of the internal and external atmosphere.
+![](src\videos\earth-alone.mp4)
+
+Final result of the main view of the course project
+![](src\videos\space-landing.mp4)
+
+
 ## Run Locally
 
 Clone the project
