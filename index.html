@@ -5,11 +5,30 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,600&family=Lato&display=swap" rel="stylesheet">
   <title>Vite + TS</title>
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app" class="flex h-screen bg-black">
+    <div class="w-1/2 flex flex-col justify-center px-8">
+      <div class="max-w-[500px] mx-auto">
+        <h1 class="font-exo text-white text-4xl mb-8 leading-none">
+          CHALLENGING THE STANDARD OF SPACE EXPLORATION
+        </h1>
+        <p class="font-lato text-gray-400 mb-8">
+          Millions of developers and companies build, ship, 
+          and maintain their software on Github-the largest and most
+          advanced development platform in the world.
+        </p>
+        <div><a href="" 
+          class="font-lato text-white bg-green-600 inline-block px-8 py-4 rounded-full">Learn More</a></div>
+      </div>
+      </div>
+    <div id="canvasContainer" class="w-1/2">
+      <canvas></canvas>
+    </div>
+  </div>
 
   <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
 

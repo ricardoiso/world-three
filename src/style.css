@@ -1,6 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
   margin: 0;
+}
+
+#app {
+  overflow: hidden;
+}
+
+.font-exo {
+  font-family: "Exo", sans-serif;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
 }
 
 /* :root {
