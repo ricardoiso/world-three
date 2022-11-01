@@ -7,10 +7,14 @@ ThreeJS 🤩 intermediate level crash course using Custom Shaders, taught by Chr
 ## Demos
 
 Main content of the course. Here the geometric figure was created using Shaders to use the image, the colors of the internal and external atmosphere.
-![](src\videos\earth-alone.mp4)
+<video width="320" height="240" controls>
+  <source src="src\videos\earth-alone.mp4" type="video/mp4">
+</video>
 
 Final result of the main view of the course project
-![](src\videos\space-landing.mp4)
+<video width="320" height="240" controls>
+  <source src="src\videos\space-landing.mp4" type="video/mp4">
+</video>
 
 
 ## Run Locally
